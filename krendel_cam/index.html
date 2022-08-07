@@ -25,6 +25,117 @@
 
 	<link rel="icon" href="/logo_white_100.png" type="image/png">
 	
+
+	<script type="text/javascript">
+		let esp32 = {};
+		esp32.animationLast = 1;
+		esp32.animationMin = 1;
+		esp32.animationMax = 100;
+		esp32.animEnabled = true;
+		esp32.animationFramrate = 25;
+		esp32.allFrames = []
+	</script>
+
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0001.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0002.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0003.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0004.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0005.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0006.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0007.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0008.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0009.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0010.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0011.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0012.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0013.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0014.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0015.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0016.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0017.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0018.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0019.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0020.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0021.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0022.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0023.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0024.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0025.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0026.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0027.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0028.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0029.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0030.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0031.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0032.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0033.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0034.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0035.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0036.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0037.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0038.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0039.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0040.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0041.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0042.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0043.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0044.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0045.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0046.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0047.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0048.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0049.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0050.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0051.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0052.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0053.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0054.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0055.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0056.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0057.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0058.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0059.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0060.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0061.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0062.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0063.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0064.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0065.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0066.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0067.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0068.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0069.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0070.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0071.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0072.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0073.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0074.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0075.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0076.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0077.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0078.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0079.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0080.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0081.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0082.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0083.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0084.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0085.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0086.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0087.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0088.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0089.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0090.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0091.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0092.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0093.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0094.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0095.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0096.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0097.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0098.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0099.png" as="image">
+	<link rel="preload" href="/krendel_cam/esp_animation_keyframes/0100.png" as="image">
 </head>
 <body>
 
@@ -60,11 +171,20 @@ https://t.me/kkk_ennrl" onclick='document.location.href = "https://t.me/kkk_ennr
 			
 			<h1 class="title">KrendelCam</h1>
 
-			<video class='video-transperent-cube' src="esp_32.mp4" autoplay muted loop></video>
+			<div class="esp-32-animation video-transperent-cube"></div>
 			<p class='center'>Основан на ESP-32 CAM</p>
 
-			<p>Привет! Хотим рассказать о моем устройстве - KrendelCam. Это камера видеонаблюдения с дистанционным управлением и настройкой с телефона.</p>
-			<p>Для данного устройства также было разработанно мобильное приложение, с помощью которого можно настроить камеру а также просмотреть видиопоток и информацию с камеру</p>
+			<p>Привет! Хочу рассказать о собсвенном проекте камеры видеонаблюдения! </p>
+			<p>Данной устройство работает на микроконтроллере esp32-cam который можно заказать в китае всего за 30 BYN (~12$ USD)</p>
+			<p>Работает камера на прошивке KrendelCamDevice_0x1.</p>
+			<p>Также для работы камеры было разработанно веб-приложение, которое не требует установки.</p>
+			<p>Может возникнуть вопрос: зачем сущетсвуте данный проект? И у меня много раз тот же вопрос возникал, но после того как посмотрел на стоимость аналогов с такими же характеристиками вопрос сам по себе отпал.</p>
+			<p>Как можно понять данная камера довольно дешевле аналогов например той же камеры от Xiaomi - Xiaomi Mi Camera 2K которая стоит на момент написания сайта (08.08.2022) - 109 BYN (~43$ USD)</p>
+			<p>То есть можно сделать вывод что мой проект имеет себестоймость практически в 4 раза меньше чем аналоги.</p>
+			<p>Также в стоймости камеры не учитывается стоймость корпуса, который сделан из пластика и напечатан на 3d принтере (ну просто это дешево!)</p>
+			<p>Камера работает на собственном протоколе передачи данных на сервер KIDirect - KrendelImageDirect.</p>
+			<p>В кратце данный протокол обеспечивает трансляцию изображения с камеры напрямую на сервер без дополнительного белого IP адреса, по этому доступ к камере можно получить с любой точки мира! </p>
+			<p>Это было краткое описание проекта, по всем вопросам вы можете написать на адрес электронной почты <a href="mailto:cam@krendel.ml">cam@krendel.ml</a>, я постараюсь ответить на каждый💗</p>
 
 			<div class="footer">
 				
@@ -99,6 +219,39 @@ https://kkk-ennrl.ml/krendel_cam" onclick='document.location.href = "/krendel_ca
 		</div>
 
 	</div>
+
+	<script type="text/javascript">
+		window.addEventListener("DOMContentLoaded", function(){
+
+			for (let i = 1; i < 101; i++) {
+			    let l1 = i.toString();
+			    let l2 = l1.length;
+			    let l3 = 3 - l2;
+			    let filename = "";
+			    for (let o = 0; o <= l3; o++) {
+			        filename += "0";
+			    }
+			    filename += i +  ".png";
+			    esp32.allFrames.push(filename);
+			   }
+
+			setInterval(function(){
+
+				if (esp32.animationLast + 1 > esp32.animationMax) {
+					esp32.animationLast = esp32.animationMin
+				} else {
+					esp32.animationLast += 1
+				}
+
+				let block = document.querySelector(".esp-32-animation")
+
+				block.style.background = "url(/krendel_cam/esp_animation_keyframes/" + esp32.allFrames[esp32.animationLast-1] + ") no-repeat";
+				block.style.backgroundSize = "100%";
+
+			}, 1000/esp32.animationFramrate)
+
+		})
+	</script>
 
 </body>
 </html>
