@@ -1,6 +1,9 @@
 *.emoji-robot-1f916 {
 	content: url(/emoji/robot_1f916.png);
 }
+*.emoji-growing-heart-1f497 {
+	content: url(emoji/growing-heart_1f497.png);
+}
 *.emoji {
 	width: 30px;
 	height: 30px;
