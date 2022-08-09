@@ -4,6 +4,9 @@
 *.💗 {
 	content: url(emoji/growing-heart_1f497.png);
 }
+*.😅 {
+	content: url(emoji/grinning-face-with-sweat_1f605.png);
+}
 *.emoji {
 	width: 30px;
 	height: 30px;
@@ -307,13 +310,23 @@
 	}
 
 	.content .video-transperent-cube {
+		width: 300px;
+		height: 300px;
+		margin-left: calc(50% - 150px);
+		opacity: 1;
+		filter: brightness(0.897);
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+	.content .video-transperent-cube {
 		width: calc(100vw - 50px);
 		height: calc(100vw - 50px);
 		margin-left: calc(25px - 10px);
 		opacity: 1;
 		filter: brightness(0.897);
 	}
-
 }
 
 
