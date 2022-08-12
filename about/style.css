@@ -1,0 +1,22 @@
+.title {
+	position: absolute;
+	width: 100vw;
+	top: calc(50% - 40px);
+	line-height: 40px;
+	left: 0px;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+	font-size: 36px;
+}
+.text {
+	position: absolute;
+	width: 100vw;
+	top: calc(50% );
+	line-height: 40px;
+	left: 0px;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+}
