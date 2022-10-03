@@ -194,6 +194,21 @@
 		opacity: 0.4;
 		user-select: none;
 	}
+	.one-more-time-box {
+		width: calc(100% - 40px);
+		padding: 20px;
+		border-radius: 10px;
+		background: rgba(255, 255, 255, 0.1);
+		font-family: sans-serif;
+		color: white;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.one-more-time-box .one-more-time-box-title {
+		font-size: 24px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
 
 }
 
@@ -402,6 +417,23 @@
 		padding-bottom: 0px;
 		opacity: 0.4;
 		user-select: none;
+	}
+	.one-more-time-box {
+		width: calc(100% - 40px);
+		padding: 20px;
+		border-radius: 10px;
+		background: rgba(255, 255, 255, 0.1);
+		font-family: sans-serif;
+		color: white;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.one-more-time-box .one-more-time-box-title {
+		font-size: 24px;
+		font-weight: 700;
+		margin-bottom: 20px;
+		text-align: center;
+		
 	}
 
 }
