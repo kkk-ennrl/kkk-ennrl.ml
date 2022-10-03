@@ -31,14 +31,24 @@
 
 	<link rel="icon" href="/logo_white_100.png" type="image/png">
 	
+	<style type="text/css">
+		@media screen and (min-width: 1000px) {
+			.bg.rick-and-morty {
+				background: url(/rick-and-morty/rick-and-morty-bg.jpg) no-repeat;
+				background-size: cover;
+				background-position: center center;
+			}
+		}
+	</style>
+
 </head>
 <body>
 
-	<div class="bg">
+	<div class="bg rick-and-morty">
 		
 	</div>
 
-	<div class="content">
+	<div class="content rick-and-morty">
 		
 		<div class="bar">
 			
@@ -57,6 +67,7 @@
 				<li class='inst' title="Открыть: Instagram
 https://instagram.com/kkk_ennrl" onclick='document.location.href = "https://instagram.com/kkk_ennrl"'>Instagram</li>
 				<li class='inst' onclick='document.location.href = "/news"'>Новости</li>
+				<li class="tg" onclick="document.location.href = '/rick-and-morty/'">Рик и Морти</li>
 			</ul>
 
 		</div>
@@ -65,7 +76,26 @@ https://instagram.com/kkk_ennrl" onclick='document.location.href = "https://inst
 			
 			<h1 class="title">Рик и Морти</h1>
 
-			
+			<div class="ram-box-season" onclick="document.location.href = '1season/'">
+				<img src="1season.png" height="150"> 
+				<div class="name">Первый сезон</div>
+			</div>
+			<div class="ram-box-season" onclick="document.location.href = '2season/'">
+				<img src="2season.png" height="150"> 
+				<div class="name">Второй сезон</div>
+			</div>
+			<div class="ram-box-season" onclick="document.location.href = '3season/'">
+				<img src="3season.png" height="150"> 
+				<div class="name">Третий сезон</div>
+			</div>
+			<div class="ram-box-season">
+				<img src="4season.png" height="150"> 
+				<div class="name">Четвертый сезон</div>
+			</div>
+			<div class="ram-box-season">
+				<img src="5season.png" height="150"> 
+				<div class="name">Пятый сезон</div>
+			</div>
 
 			<div class="footer">
 				
