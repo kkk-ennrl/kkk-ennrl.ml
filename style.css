@@ -507,47 +507,16 @@
 
 
 
+.content .bar .menu {
+	border: 0;
 
+	min-width: 100px;
+	max-width: 100vw;
 
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.content .bar .menu li.inst {
-	transition: 0.2s;
+	min-height: 40px;
+	max-height: 300px;
 }
-.content .bar .menu li.inst:hover {
-	color: #FCAF45;
-}
-
-.content .bar .menu li.vk {
-	transition: 0.2s;
-}
-.content .bar .menu li.vk:hover {
-	color: #0077FF;
-}
-
-.content .bar .menu li.tg {
-	transition: 0.2s;
-}
-.content .bar .menu li.tg:hover {
-	color: #0088cc
-}
-
-
-
