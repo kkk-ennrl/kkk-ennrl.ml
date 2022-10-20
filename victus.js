@@ -57,15 +57,21 @@ victus.start = false
 
 victus.child = null
 
+victus.enabled = false
+
 window.addEventListener("DOMContentLoaded", function(){
 
-	victusStartupMessage()
+	if (victus.enabled) {
 
-	let styleInject = document.createElement("style")
-	styleInject.innerHTML = victus.css
-	document.head.appendChild(styleInject)
+		victusStartupMessage()
 
-	window.addEventListener("keyup", victusEvent)
+		let styleInject = document.createElement("style")
+		styleInject.innerHTML = victus.css
+		document.head.appendChild(styleInject)
+
+		window.addEventListener("keyup", victusEvent)
+
+	}	
 
 })
 
