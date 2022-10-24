@@ -564,3 +564,23 @@ table {
 .color-brown {
 	color:  rgb(162, 132, 94);
 }
+.loading-icon {
+	width: 20px;
+	height: 20px;
+	background: url(/emoji/loading.svg) no-repeat;
+	background-size: 100%;
+	display: inline-block;
+	animation-name: animLoading;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes animLoading {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+
+		transform: rotate(360deg);
+	}
+}
